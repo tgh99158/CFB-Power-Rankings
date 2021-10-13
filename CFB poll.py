@@ -211,7 +211,7 @@ print(rankings.iloc[:59])
 # write rankings to excel
 rankings.to_excel(r'/Users/tylerhoylman/Documents/CFP/ Week X.xlsx')
 
-
+# if you have any recommendations to improve this code please email me thoylman@uga.edu thanks!
 
 
 
