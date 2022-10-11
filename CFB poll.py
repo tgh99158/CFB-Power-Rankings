@@ -19,7 +19,7 @@ import numpy as np
 # scrape data
 response = requests.get(
     "https://api.collegefootballdata.com/games",
-    params={"year": 2021, "seasonType": "both"},
+    params={"year": 2010, "seasonType": "both"},
     headers = {"Authorization": "Bearer G7EL3wSl1uoDYSQOw1aVQ+yKey9MG1nYqP3pLaW+sPKAzo/NiGJiKLi5fHo38xXa"}
 )
 
@@ -215,8 +215,8 @@ rankings = PR.sort_values('Rating', ascending=False).reset_index()[['Team', 'Rat
 # prints top 59 teams
 print(rankings.iloc[:59])
 
-  # write rankings to excel
-rankings.to_excel(r'/Users/tylerhoylman/Documents/CFP/ Week X.xlsx')
+# write rankings to excel
+#rankings.to_excel(r'/Users/tylerhoylman/Documents/CFP/ Week 14.xlsx')
 
 
 
